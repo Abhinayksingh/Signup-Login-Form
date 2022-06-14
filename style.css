@@ -1,0 +1,55 @@
+body{
+background-color: aqua;
+
+}
+.form{
+    height:500px;
+    width:600px;
+    background-color:rgb(40, 42, 53);
+    margin: 10rem auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing:border-box;
+    border:2px solid red;
+}
+.btn{
+    display:flex;
+    margin-top:40px;
+}
+h2{
+    text-align:center;
+    color:white;
+}
+
+button{
+    height:50px;
+    width:200px;
+    align-items:center;
+    color:black;
+    background-color:chartreuse;
+    font-size:20px;
+    border-radius:3px;
+    display:grid;
+    margin:auto;
+   
+}
+button:hover{
+    background-color:black;
+    color:white;
+    box-shadow: 4px 20px 10px rgb(150, 140, 180);
+    
+}
+
+.btn-sub{
+    margin:40px 210px;
+}
+
+label{
+    width:200px;
+    margin:20px 200px;
+    color:white;
+    display:block;
+    justify-content: center;
+    float:left;
+}
